@@ -20,11 +20,13 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// Call a class that generates a random string
 class RandomWords extends StatefulWidget {
   @override
   createState() => new RandomWordsState();
 }
 
+// Implementing a random string, and return a new widget Text
 class RandomWordsState extends State<RandomWords> {
   @override
   Widget build(BuildContext context) {
